@@ -12,18 +12,41 @@ nav#main-navbar ul li {
 
 nav#main-navbar ul li a {
   display: block;
-  background-color: RoyalBlue; 
+  background-color: Royalblue; 
   color: blue;
   font-weight: bold;
   text-decoration: none;
   text-align: center;
   width: 420px;
-  padding: 10px 0px 8px 0 px;
-  border-radius:4px;
+  padding: 10px 20px;
+  border-radius:20px;
 }
 
 nav#main-navbar ul li a:hover {
   background-color: #41169E1;
   color: GhostWhite;
   border-radius: 20px;
+}
+
+nav#sidebar ul{
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  list-style-type: none;
+}
+
+nav#sidebar ul li{
+  display:block;
+  color:red;
+  width: 20%;
+  height: 100%;
+}
+
+nav#sidebar ul li a{
+  position: fixed;
+  float: right;
+  background-color: red;
+  text-align: center;
+  border-radius:
 }
