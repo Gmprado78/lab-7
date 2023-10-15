@@ -28,7 +28,7 @@ nav#main-navbar ul li a:hover {
   border-radius: 20px;
 }
 
-nav#sidebar ul{
+nav#vert ul{
   list-style-type: none;
   padding: 0;
   margin: 0;
@@ -36,14 +36,14 @@ nav#sidebar ul{
   list-style-type: none;
 }
 
-nav#sidebar ul li{
+nav#vert ul li{
   display:block;
   color:red;
   width: 20%;
   height: 100%;
 }
 
-nav#sidebar ul li a{
+nav#vert ul li a{
   position: fixed;
   float: right;
   background-color: red;
