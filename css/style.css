@@ -8,6 +8,8 @@ nav#main-navbar ul{
   display: block;
   padding: 10px 20px;
   position: relative;
+  width: 100%;
+  float: left;
 }
 
 nav#main-navbar ul li {
@@ -16,13 +18,11 @@ nav#main-navbar ul li {
   right: 50%;
   display: block;
   position: relative;
+  width: 100%;
+  float: left;
 }
 
 nav#main-navbar ul li a {
-  width: 100%;
-  text-decoration: none;
-  width: 100%;
-  float: left;
   text-decoration: none;
 }
 
@@ -31,9 +31,12 @@ nav#main-navbar ul li a:hover {
   color: #fff;
   text-decoration: underline overline;
   position: relative;
+  width: 100%;
+  float: left;
 }
 
 #side-bar ul{
+  position: fixed;
   list-style-type: fixed;
   padding: 50;
   margin: 500px;
