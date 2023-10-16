@@ -3,7 +3,8 @@
 }
 
 #navbar-container{
-  
+  width: 100%;
+  float: left;
 }
   
 #main-navbar ul{
@@ -16,7 +17,6 @@
   display: block;
   padding: 10px 20px;
   position: relative;
-  width: 100%;
   float: left;
 }
 
@@ -73,5 +73,5 @@ nav#main-navbar ul li a:hover {
   color:fff;
   text-decoration: none;
   background-color:#000;
-  padding: 0;
+padding: 0;
 }
