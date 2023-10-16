@@ -1,3 +1,11 @@
+#main-navbar{
+  	
+}
+
+#navbar-container{
+  
+}
+  
 #main-navbar ul{
   background-color: blue;
   overflow: hidden;
@@ -26,7 +34,7 @@
   text-decoration: none;
 }
 
-#main-navbar ul li a:hover {
+nav#main-navbar ul li a:hover {
   background-color: #000;
   color: #fff;
   text-decoration: underline overline;
@@ -35,8 +43,11 @@
   float: left;
 }
 
+#onpage{
+	
+}
 
-#side-bar ul{
+#sidebar ul{
   list-style-type: fixed;
   padding: 50;
   list-style-type: none;
@@ -59,8 +70,8 @@
 }
 
 #sidebar ul li a:hover {
-	color:fff;
-	text-decoration: none;
-	background-color:#000;
-	padding: 0;
+  color:fff;
+  text-decoration: none;
+  background-color:#000;
+  padding: 0;
 }
