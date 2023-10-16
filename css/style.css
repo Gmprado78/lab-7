@@ -1,4 +1,4 @@
-nav#main-navbar ul{
+#main-navbar ul{
   background-color: blue;
   overflow: hidden;
   list-style-type: none;
@@ -12,7 +12,7 @@ nav#main-navbar ul{
   float: left;
 }
 
-nav#main-navbar ul li {
+#main-navbar ul li {
   display: block;
   left: 50%;
   right: 50%;
@@ -22,11 +22,11 @@ nav#main-navbar ul li {
   float: left;
 }
 
-nav#main-navbar ul li a {
+#main-navbar ul li a {
   text-decoration: none;
 }
 
-nav#main-navbar ul li a:hover {
+#main-navbar ul li a:hover {
   background-color: #000;
   color: #fff;
   text-decoration: underline overline;
