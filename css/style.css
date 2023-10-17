@@ -1,5 +1,6 @@
 #main-navbar{
-  	
+  background-color: blue;
+  overflow: hidden;  
 }
 
 #navbar-container{
@@ -8,12 +9,11 @@
 }
   
 #main-navbar ul{
-  background-color: blue;
-  overflow: hidden;
+ 
+  
   list-style-type: none;
   margin: 0;
   padding: 0;
-  overflow: hidden;
   display: block;
   padding: 10px 20px;
   position: relative;
