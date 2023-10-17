@@ -40,6 +40,14 @@ nav#main-navbar ul li a:hover {
   text-decoration: underline overline;
 }
 
+#sidebar {
+  position: fixed;
+  right: 0%;
+  background-color: red;
+  height: 100%;
+  width: 20%;
+}
+
 #sidebar ul{
   list-style-type: fixed;
   padding: 50;
@@ -50,16 +58,15 @@ nav#main-navbar ul li a:hover {
 
 #sidebar ul li{
   display:block;
-  width: 20%;
-  height: 100%;
+  
+  
   padding: 15px 0;
   text-align: center
 }
 
 #sidebar ul li a{
-  right: 0%;
   position: fixed;
-  background-color: red;
+ 
 }
 
 #sidebar ul li a:hover {
