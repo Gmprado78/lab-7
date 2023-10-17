@@ -49,29 +49,19 @@ nav#main-navbar ul li a:hover {
 }
 
 #sidebar ul{
-  list-style-type: fixed;
-  padding: 50;
+  padding: 0;
   list-style-type: none;
   text-align: center;
-  
-}
-
-#sidebar ul li{
-  display:block;
-  
-  
-  padding: 15px 0;
-  text-align: center
 }
 
 #sidebar ul li a{
-  position: fixed;
- 
+  display:block;
+  padding: 15px 0;
+  text-decoration: none;
+  color:fff;
 }
 
 #sidebar ul li a:hover {
-  color:fff;
-  text-decoration: none;
   background-color:#000;
 padding: 0;
 }
