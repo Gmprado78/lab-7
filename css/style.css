@@ -6,45 +6,43 @@
 #navbar-container{
   width: 100%;
   float: left;
+  position: relative;
 }
   
 #main-navbar ul{
- 
-  
   list-style-type: none;
   margin: 0;
   padding: 0;
-  display: block;
-  padding: 10px 20px;
   position: relative;
+  left: 50%;
   float: left;
 }
 
 #main-navbar ul li {
   display: block;
-  left: 50%;
   right: 50%;
   display: block;
-  position: relative;
-  width: 100%;
   float: left;
+  position: relative;
 }
 
 #main-navbar ul li a {
+  text-decoration: none;
+  display: block;
+  padding: 10px 20px;
+  color: #fff;
   text-decoration: none;
 }
 
 nav#main-navbar ul li a:hover {
   background-color: #000;
-  color: #fff;
-  text-decoration: underline overline;
   position: relative;
   width: 100%;
   float: left;
 }
 
 #onpage{
-	
+  text-decoration: underline overline;
 }
 
 #sidebar ul{
