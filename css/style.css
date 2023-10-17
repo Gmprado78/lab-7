@@ -42,9 +42,9 @@
 }
 
 #sidebar {
+  background-color: red;
   position: fixed;
   right:0%;
-  background-color: red;
   height: 100%;
   width: 20%;
 }
@@ -56,9 +56,9 @@
 }
 
 #sidebar ul li a {
+  color: #fff;
   display: block;
   padding: 15px 0;
-  color: #fff;
   text-decoration: none;
 }
 
